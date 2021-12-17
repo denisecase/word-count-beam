@@ -8,13 +8,15 @@ This Apache Beam big data project was created by:
 
 1. Following Google Colabs [Beam Quickstart for Java](https://beam.apache.org/get-started/quickstart-java/)
 2. Adding README.md and .gitignore files
-3. Git init/add/commit/push to repo. Create GitHub repo word-count-beam (same name as folder) with no README.md or .gitignore. 
+3. Git init/add/commit/push to repo. Create GitHub repo word-count-beam (same name as folder) with no README.md or .gitignore. Open Git Bash in word-count-beam.
 
    ```Bash
    git init
    git remote add origin https://github.com/denisecase/word-count-beam.git
    git branch -M main
    git add .
+   git commit -m "initial commit"
+   git push -u origin main
    ```
 
 -----
