@@ -58,7 +58,7 @@ refreshenv
 winget install Microsoft.OpenJDK.17
 ```
 
-### :star Warning: Exactly One Java Path!
+### ⚠️ Warning: Exactly One Java Path!
 
 Win key + Edit the system environment variables. Check path variable. There must be exactly one path to Java in both system (recommended) and user path. 
 
