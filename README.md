@@ -47,8 +47,14 @@ choco install git -y
 choco install openjdk -y
 choco install maven -y
 choco install vscode -y
-choco upgrade all -y
 refreshenv
+```
+
+Optinoal helpful Chocolatey commands
+
+```PowerShell
+choco list --local-only
+choco upgrade all -y
 ```
 
 ### JDK Installation Alternatives
