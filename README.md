@@ -60,7 +60,7 @@ refreshenv
 winget install Microsoft.OpenJDK.17
 ```
 
-### :star Warning: Exactly One Java Path!
+### ⚠️ Warning: Exactly One Java Path!
 
 Win key + Edit the system environment variables. Check path variable. There must be exactly one path to Java in both system (recommended) and user path. 
 
@@ -140,9 +140,9 @@ ls counts*
 - What (free!) classes are imported?
 - What is the class name? 
 - Must the class name (WordCount) match the file name (WordCount.java)? 
-- What 3 classes are defined? What do they extend?
-- How are the Options defined? What does this interface extend?
-- How many arguments does the runWordCount() function take? What type is it? Does it return anything? 
+- What 3 classes are defined in WordCount? What does each class extend?
+- How are the application Options defined? What does this interface extend?
+- How many arguments does the runWordCount() function take? What type is the argument? Does the function return anything? 
 - What does the local variable p represent?
 - What does the first p.apply() do?
 - What does the second p.apply() do?
@@ -150,7 +150,7 @@ ls counts*
 - What does the fourth p.apply() do?
 - After transforming, what do we call? 
 - After p.run(), what do we call?
-- How do we prepare and call our runWordCount() function?
+- Where do we prepare and call our runWordCount() function?
 
 ## Learn More
 
